@@ -1,5 +1,5 @@
 /* Стили хэдера */
-html{}
+/* html{} */
 
 .header {
     display: grid;
@@ -341,7 +341,7 @@ html{}
     width: 48px;
 }
 
-.footer__social-link {}
+/* .footer__social-link {} */
 
 .footer__social-icon {
     display: flex;
