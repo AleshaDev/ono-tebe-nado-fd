@@ -1,4 +1,5 @@
 /* Стили хэдера */
+html{}
 
 .header {
     display: grid;
