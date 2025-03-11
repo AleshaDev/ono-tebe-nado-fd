@@ -31,7 +31,7 @@
     letter-spacing: 0%;
 }
 
-.header__links-list-item_no-bullit {
+.header__links-list-item:first-child {
     list-style: none;
 }
 
@@ -218,7 +218,7 @@
     position: relative;
     z-index: 1;
     color: #fff;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 1.2;
@@ -338,12 +338,12 @@
 
 .footer__social-list-item {
     display: block;
-    width: 48px;
+
 }
 
 /* .footer__social-link {} */
 
 .footer__social-icon {
-    display: flex;
-    width: 100%;
+    width: 48px;
+    height: 48px;
 }
