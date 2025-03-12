@@ -283,9 +283,14 @@
 }
 
 .about__text {
+    display: flex;
     max-width: 688px;
     font-size: 20px;
     line-height: 24.3px;
+}
+
+.about__text:first-of-type{
+    margin-bottom: 24px;
 }
 
 /* Футер */
